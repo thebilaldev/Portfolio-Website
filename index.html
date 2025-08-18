@@ -125,7 +125,13 @@
   <header class="bg-[#161b22]/90 backdrop-blur-md sticky top-0 z-50 shadow-lg border-b border-[#30363d]/50">
     <nav class="container mx-auto px-6 py-4 flex items-center justify-between">
       <a href="#" class="text-2xl font-extrabold gradient-text flex items-center">
-        <span class="mr-2">👨‍💻</span> Bilal Dev
+        <!-- SVG Code Logo -->
+        <svg class="w-8 h-8 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <rect x="4" y="4" width="16" height="16" rx="2" stroke-width="2"/>
+          <path d="M9 9H15V15H9V9Z" stroke-width="2"/>
+          <path d="M9 1V4M15 1V4M9 20V23M15 20V23M1 9H4M1 15H4M20 9H23M20 15H23" stroke-width="2"/>
+        </svg>
+        Bilal Dev
       </a>
       <ul class="hidden md:flex space-x-8 font-medium">
         <li><a href="#about" class="nav-link hover:text-teal-400 transition">About</a></li>
@@ -160,12 +166,12 @@
             <span class="mr-2">💬</span> Contact Me
           </a>
         </div>
-        <div class="mt-12 flex space-x-6">
-          <a href="#" class="social-icon text-2xl hover:text-teal-400"><i class="fab fa-github"></i></a>
-          <a href="#" class="social-icon text-2xl hover:text-blue-400"><i class="fab fa-linkedin"></i></a>
-          <a href="#" class="social-icon text-2xl hover:text-purple-400"><i class="fab fa-twitter"></i></a>
-          <a href="#" class="social-icon text-2xl hover:text-red-400"><i class="fab fa-youtube"></i></a>
-        </div>
+        <!-- <div class="mt-12 flex space-x-6">
+          <a href="" class="social-icon text-2xl hover:text-teal-400"><i class="fab fa-github"></i></a>
+          <a href="" class="social-icon text-2xl hover:text-blue-400"><i class="fab fa-linkedin"></i></a>
+          <a href="" class="social-icon text-2xl hover:text-purple-400"><i class="fab fa-twitter"></i></a>
+          <a href="" class="social-icon text-2xl hover:text-red-400"><i class="fab fa-youtube"></i></a>
+        </div> -->
       </div>
       <div class="md:w-1/2 flex justify-center relative" data-aos="fade-left">
         <div class="relative">
@@ -196,9 +202,7 @@
           <div class="flex flex-wrap gap-3">
             <span class="skill-badge px-3 py-1 rounded-full text-sm">Laravel</span>
             <span class="skill-badge px-3 py-1 rounded-full text-sm">PHP</span>
-            <span class="skill-badge px-3 py-1 rounded-full text-sm">Node.js</span>
             <span class="skill-badge px-3 py-1 rounded-full text-sm">REST APIs</span>
-            <span class="skill-badge px-3 py-1 rounded-full text-sm">GraphQL</span>
             <span class="skill-badge px-3 py-1 rounded-full text-sm">Microservices</span>
           </div>
         </div>
@@ -242,7 +246,7 @@
           </div>
           <h3 class="text-xl font-bold mb-4">DevOps & Tools</h3>
           <div class="flex flex-wrap gap-3">
-            <span class="skill-badge px-3 py-1 rounded-full text-sm">Docker</span>
+            <span class="skill-badge px-3 py-1 rounded-full text-sm">Pusher</span>
             <span class="skill-badge px-3 py-1 rounded-full text-sm">AWS</span>
             <span class="skill-badge px-3 py-1 rounded-full text-sm">CI/CD</span>
             <span class="skill-badge px-3 py-1 rounded-full text-sm">Git</span>
@@ -278,7 +282,7 @@
             <div class="flex flex-wrap gap-2">
               <span class="text-xs bg-gray-800 text-teal-400 px-2 py-1 rounded">Laravel</span>
               <span class="text-xs bg-gray-800 text-blue-400 px-2 py-1 rounded">React</span>
-              <span class="text-xs bg-gray-800 text-purple-400 px-2 py-1 rounded">WebSockets</span>
+              <span class="text-xs bg-gray-800 text-purple-400 px-2 py-1 rounded">Pusher</span>
             </div>
           </div>
         </div>
@@ -298,9 +302,9 @@
             </div>
             <p class="text-gray-400 mb-4">AI-driven platform for fraud detection & online security with machine learning algorithms and real-time monitoring.</p>
             <div class="flex flex-wrap gap-2">
-              <span class="text-xs bg-gray-800 text-teal-400 px-2 py-1 rounded">Python</span>
-              <span class="text-xs bg-gray-800 text-blue-400 px-2 py-1 rounded">TensorFlow</span>
-              <span class="text-xs bg-gray-800 text-purple-400 px-2 py-1 rounded">Node.js</span>
+              <span class="text-xs bg-gray-800 text-teal-400 px-2 py-1 rounded">Laravel</span>
+              <span class="text-xs bg-gray-800 text-blue-400 px-2 py-1 rounded">React</span>
+              <span class="text-xs bg-gray-800 text-purple-400 px-2 py-1 rounded">WebSockets</span>
             </div>
           </div>
         </div>
@@ -321,7 +325,7 @@
             <p class="text-gray-400 mb-4">E-commerce platform for high-purity chemicals with inventory management, compliance tracking, and B2B features.</p>
             <div class="flex flex-wrap gap-2">
               <span class="text-xs bg-gray-800 text-teal-400 px-2 py-1 rounded">Laravel</span>
-              <span class="text-xs bg-gray-800 text-blue-400 px-2 py-1 rounded">Vue.js</span>
+              <span class="text-xs bg-gray-800 text-blue-400 px-2 py-1 rounded">React</span>
               <span class="text-xs bg-gray-800 text-purple-400 px-2 py-1 rounded">Stripe</span>
             </div>
           </div>
@@ -351,15 +355,25 @@
           
           <div class="border-l-2 border-gray-700 pl-6 space-y-8">
             <div>
-              <h4 class="font-bold text-lg">Senior Software Engineer</h4>
-              <p class="text-gray-400 text-sm mb-1">Tech Solutions Inc. • 2021 - Present</p>
-              <p class="text-gray-300">Led development of enterprise applications using Laravel and React, improving system performance by 40%.</p>
+              <h4 class="font-bold text-lg">Associate Software Engineer</h4>
+              <p class="text-gray-400 text-sm mb-1">Eye4Tech • 06/2023 - Present</p>
+              <p class="text-gray-300">
+                Developing and maintaining web applications using Laravel and React.js frameworks. 
+                Collaborating with cross-functional teams to implement new features and optimize 
+                existing systems. Participating in code reviews and following best practices 
+                for clean, maintainable code.
+              </p>
             </div>
             
             <div>
-              <h4 class="font-bold text-lg">Software Developer</h4>
-              <p class="text-gray-400 text-sm mb-1">Digital Creations • 2018 - 2021</p>
-              <p class="text-gray-300">Developed and maintained web applications, implemented CI/CD pipelines reducing deployment time by 60%.</p>
+              <h4 class="font-bold text-lg">Trainee Developer</h4>
+              <p class="text-gray-400 text-sm mb-1">SeeBiz • 03/2023 - 06/2023</p>
+              <p class="text-gray-300">
+                Assisted in developing web applications under senior developer supervision. 
+                Gained hands-on experience with Laravel backend development and React.js 
+                frontend components. Supported team in debugging and testing activities, 
+                while learning industry-standard development workflows.
+              </p>
             </div>
           </div>
         </div>
@@ -372,14 +386,8 @@
           
           <div class="border-l-2 border-gray-700 pl-6 space-y-8">
             <div>
-              <h4 class="font-bold text-lg">MSc in Computer Science</h4>
-              <p class="text-gray-400 text-sm mb-1">Tech University • 2016 - 2018</p>
-              <p class="text-gray-300">Specialized in Software Engineering and Machine Learning. Thesis on "Optimizing Web Application Performance".</p>
-            </div>
-            
-            <div>
-              <h4 class="font-bold text-lg">BSc in Software Engineering</h4>
-              <p class="text-gray-400 text-sm mb-1">State University • 2012 - 2016</p>
+              <h4 class="font-bold text-lg">Bsc in Computer Science</h4>
+              <p class="text-gray-400 text-sm mb-1">University of Lahore • 2019 - 2023</p>
               <p class="text-gray-300">Graduated with honors. Focused on web development and database systems.</p>
             </div>
           </div>
